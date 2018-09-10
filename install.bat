@@ -6,4 +6,5 @@ cd ..\
 :: Make folder hidden
 attrib +h %folder% /S /D
 
-CALL wal\startup.bat
+cd %folder%\wal\
+wscript invisible.vbs
