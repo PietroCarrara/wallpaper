@@ -1,9 +1,5 @@
 @echo off
 
-:loop
-
-CALL wal.bat
-
-GOTO loop
+for /l %%x in (1, 1, 512) do CALL wal.bat
 
 exit
